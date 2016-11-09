@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -79,6 +79,7 @@
     <Compile Include="Modulo_Finanzas\Formularios\Formulario_Tablero.Designer.cs">
       <DependentUpon>Formulario_Tablero.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Modulo_Ventas\Formularios\Formulario_NuevaVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +91,19 @@
     </Compile>
     <Compile Include="Modulo_Ventas\Formularios\Formulario_Ventas.Designer.cs">
       <DependentUpon>Formulario_Ventas.cs</DependentUpon>
+=======
+    <Compile Include="Modulo_Inventario\Formularios\Formulario_Emergente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\Formularios\Formulario_Emergente.Designer.cs">
+      <DependentUpon>Formulario_Emergente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\Formularios\Formulario_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\Formularios\Formulario_Inventario.Designer.cs">
+      <DependentUpon>Formulario_Inventario.cs</DependentUpon>
+>>>>>>> origin/master
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
